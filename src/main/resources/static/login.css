@@ -1,0 +1,28 @@
+ html, body {
+        height: 100%;
+        margin: 0;
+        overflow: hidden; /* impede a rolagem */
+      }
+
+      .form-control:focus {
+        box-shadow: 0 0 0 0.2rem rgb(225, 93, 81); 
+      }
+
+      .form-container {
+        background-color: rgba(19, 58, 97, 0.9);
+        padding: 2rem;
+        border-radius: 11px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        min-height: 300px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -50px;
+      }      
